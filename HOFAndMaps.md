@@ -45,7 +45,7 @@ without using map, we have this block
     newArray.push(initialArray[index] * 2);
     }
 
-console.log(newArray); //prints out [2, 3, 4];
+console.log(newArray); //prints out [2, 4, 6];
 
 using map, we have the same result using
 
@@ -54,4 +54,4 @@ using map, we have the same result using
     return item * 2;
     })
 
-console.log(newArray) //prints the same [2, 3, 4];
+console.log(newArray) //prints the same [2, 4, 6];
